@@ -23,3 +23,40 @@
     font-family: Fredoka One;
     font-size: 70px;
 }
+
+.container{
+    margin-top: 50px;
+
+}
+
+.container,img{
+    height: 300px;
+    width: 400px;  
+}
+
+img{
+    border: 2pt solid black;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.menu h3{
+    font-family: Shadows Into Light;
+    text-align: center;
+}
+
+#table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: Shadows Into Light;
+    font-size: 30px;
+    font-weight: 100;
+}
+.menu #table{
+    padding: 100px;
+    background-image: url(../images/pizza6.jpeg)
+}
