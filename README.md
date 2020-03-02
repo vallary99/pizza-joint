@@ -11,11 +11,13 @@ It basically meant for online booking and delivery.
 ## HOW TO USE IT
 To access the website, click on the link below.
 
+ https://vallary99.github.io/pizza-joint/
+
 ### TECHNOLOGY USED
 This site has been developed using:
 HTML
 CSS
-JAVASCRIPT
+JAVASCRIPT https://vallary99.github.io/pizza-joint/
 J Query
 Bootstrap 4
 
