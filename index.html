@@ -89,6 +89,29 @@
             </table>
             <br>
     </div>
+
+    <div class="form">
+        <div class="form1">
+            <form name="cForm" onsubmit="validation()" method="POST">
+                <div class="contacts">
+
+                    NAME<input id="name" type="text" required>
+        
+                    PHONE<input type="tel" type="phone"  name="fphone" required>
+                    <br><br>
+                    <input type="checkbox" id="delivery">DELIVERY
+                    <br>
+                    <div class="address">
+                    DELIVERY ADDRESS<input type="text"   id="address" name="faddress" required>
+                    </div>
+                    <br><br>
+
+                    <button>
+                        <input type="submit" value="ORDER" id="submit">
+                    </button>                      
+                </div>
+            </form>
+        </div>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/script.js"></script> 
 </body>
