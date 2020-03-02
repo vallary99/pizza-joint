@@ -1,4 +1,7 @@
-# Description
+# AUTHOR
+VALLARY OTIENO
+
+# DESCRIPTION
 This web appliacation serves as an online pizza order and delivery.It is a good business idea to increase input.
 
 ## WHO DOES IT SERVE
