@@ -82,6 +82,10 @@ img{
     background-color: silver;
 }
 
+.address{
+    display: none;
+
+}
 .form{
     background-image: url(../images/pizza7.png);
     background-repeat: no-repeat;
@@ -113,6 +117,7 @@ img{
 #add{
     font-size: 30px;
     margin-left: 500px;
+
 }
 
 .add{

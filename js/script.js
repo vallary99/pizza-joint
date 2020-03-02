@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    $("#delivery").click(function(){
+        $(".address").show();
+        $("#delivery").hide();
+    })
     
     var Order=function(flavour,size,crust,topping){
         this.flavour=flavour;
