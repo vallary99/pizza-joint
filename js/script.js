@@ -25,7 +25,6 @@ $(document).ready(function(){
 
     total+=price;
 
-
     var Tsize= $("#size option:select").text();
     var Tcrust= $("#crust option:select").text();
     var Ttopping= $("#topping option:select").text();
@@ -37,7 +36,7 @@ $(document).ready(function(){
   });
 
   
-      $("#order").click(function(event){
+      $("#order").click(function(validation){
           $("#order").text(total);
           $("#last").show();
 
@@ -50,3 +49,8 @@ $(document).ready(function(){
   });
 
 });
+      
+          
+  
+
+

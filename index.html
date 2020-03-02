@@ -93,11 +93,9 @@
             <br>
     </div>
 
-    
-
-        <div class="form2">
-            <ul type="none">
-                <div class="list-one">
+    <div class="form2">
+        <ul type="none">
+            <div class="list-one">
                 <li id="pizza-flavour">Chicken pepperoni<input type="checkbox" id="delivery">
                     <select id="crust" name="crust">
                         <option value="crust">Crust</option>
@@ -205,8 +203,9 @@
                         </select>
                     </li>
                     <input id="amount" type="text" placeholder="Quantity"><br><br>
-                </div>
-                <div class="list-two">   
+            </div>
+
+            <div class="list-two">   
                     <li id="pizza-flavour">Berbeque<input type="checkbox" id="delivery">
                         <select id="crust" name="crust">
                             <option value="crust">Crust</option>
@@ -316,11 +315,11 @@
                     <input id="amount" type="text" placeholder="Quantity">
                 </div>        
             </ul>
+    
+            <button id="add">
+                <input type="submit" value="ADD"> 
+            </button>
         </div>    
-    </div> 
-    <button id="add">
-        <input type="submit" value="ADD"> 
-    </button>
 
     <div class="form">
         <div class="form1">
@@ -344,7 +343,7 @@
                 </div>
             </form>
         </div>
-    <table class="bg-success">
+    <table class="bg-success" id="add-order">
         <tr>
             <th>PIZZA FLAVOUR</th>
             <th>SIZE</th>
