@@ -92,6 +92,14 @@
             </table>
             <br>
     </div>
+<script>
+    function validation(){      
+        var name=document.getElementById("#name").value;
+        var address=document.getElementById("#address").value;
+
+        confirm(name+" "+"you order has been placed and will be delivered at"+" "+address);
+    }
+</script>
 
     <div class="form2">
         <ul type="none">
@@ -259,7 +267,7 @@
                         </select>
                     </li>
                     <input id="amount" type="text" placeholder="Quantity"><br><br>
-
+              
                     <li id="pizza-flavour">Beef macon<input type="checkbox" id="delivery">
                         <select id="crust" name="crust">
                             <option value="crust">Crust</option>
@@ -297,6 +305,11 @@
                         </select>
 
                         <select id="topping" name="Toppings">
+                            function validation(){      
+                                var name=document.getElementById("#name").value;
+                                var address=document.getElementById("#address").value;
+                      
+                        confirm(name+" "+"you order has been placed and will be delivered at"+" "+address);
                             <option value="toppings">Toppings</option>
                             <option value="100">onions</option>
                             <option value="200">Extra cheese</option>
@@ -327,11 +340,11 @@
                 <div class="contacts">
 
                     NAME<input id="name" type="text" required>
-        
+                    <br><br>
                     PHONE<input type="tel" type="phone"  name="fphone" required>
                     <br><br>
                     <input type="checkbox" id="delivery">DELIVERY
-                    <br>
+                    <br><br>
                     <div class="address">
                     DELIVERY ADDRESS<input type="text"   id="address" name="faddress" required>
                     </div>
@@ -344,6 +357,7 @@
             </form>
         </div>
     <table class="bg-success" id="add-order">
+        <tbody>
         <tr>
             <th>PIZZA FLAVOUR</th>
             <th>SIZE</th>
@@ -352,8 +366,6 @@
             <th>QUANTITY</th>
             <th>PRICE</th>
         </tr>
-        <tbody>
-
         </tbody>
         
      </table> <br><br><br><br>
