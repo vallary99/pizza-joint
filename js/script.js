@@ -17,20 +17,20 @@ $(document).ready(function(){
     
 
     var total=0;
-    $("input #add").click(function(event){
+    $("#add").click(function(event){
     event.preventDefault();
-       var pizzaSize=parseInt($("#size option:selected").val()); 
+        var pizzaSize=parseInt($("#size").val()); 
        var pizzaCrust =parseInt($("#crust option:selected").val()); 
-       var pizzaTopping= parseInt($("#topping option:selected").val());
+        var pizzaTopping= parseInt($("#topping option:selected").val());
 
        let newOrder = new Order(pizzaSize,pizzaCrust,pizzaTopping);
 
-    let price= (newOrder.totalPrice());
+     let price= (newOrder.totalPrice());
 
-    total+=price;
+     total+=price;
 
-    var Tsize= $("#size option:selected").text();
-    var Tcrust= $("#crust option:selected").text();
+    var Tsize= $("#add-order").append(pizzaSize);
+    var Tcrust= $("#add-order").append("pizzaCrust");
     var Ttopping= $("#topping option:selected").text();
     var Tflavour= $("#flavour option:selected").text();
     var Tamount=document.getElementById("#amount").value;
