@@ -17,7 +17,7 @@ To access the website, click on the link below.
 This site has been developed using:
 HTML
 CSS
-JAVASCRIPT https://vallary99.github.io/pizza-joint/
+JAVASCRIPT
 J Query
 Bootstrap 4
 
