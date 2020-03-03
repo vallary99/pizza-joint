@@ -21,6 +21,9 @@ JAVASCRIPT
 J Query
 Bootstrap 4
 
+## BUGS
+The site is not responsive but I'm working on it.
+
 ### CONTACT
 vallaryotieno99@yahoo.com
 OR 
